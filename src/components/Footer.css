@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.footer-headline {
+    font-size: 32px;
+    margin: 0;
+    color: white;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.footer-social {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.footer-social:hover {
+    color: rgb(163, 163, 163);
+}
+
+.footer-copyright {
+    font-weight: 500;
+}
+
+@media (max-width: 750px) {
+    .footer {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 230px;
+    }
+}

@@ -1,0 +1,27 @@
+.epic-section {
+    margin-bottom: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.epic-headline {
+    text-align: center;
+    margin: 50px 0 25px 0;
+    font-size: 24px;
+}
+
+.epic-cards-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 920px) {
+    .epic-cards-list {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}
